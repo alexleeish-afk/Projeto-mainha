@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Eras - Estética & Saúde | Alagoinhas-BA</title>
+    <meta name="description" content="Clínica Eras - Serviços de saúde com qualidade, conforto e segurança. Pilates, Hidroginástica, Hidroterapia, Fisioterapia, RPG e muito mais em Alagoinhas-BA.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#home" class="nav__logo">
+                    <img src="imagens/logotipo massoterapia clínica moderno delicado profissional bege verde e branco.jpg" alt="Clínica Eras Logo">
+                </a>
+                <ul class="nav__menu" id="navMenu">
+                    <li><a href="#home" class="nav__link">Início</a></li>
+                    <li><a href="#sobre" class="nav__link">Sobre</a></li>
+                    <li><a href="#servicos" class="nav__link">Serviços</a></li>
+                    <li><a href="#consultas" class="nav__link">Consultas</a></li>
+                    <li><a href="#estrutura" class="nav__link">Estrutura</a></li>
+                    <li><a href="#comunidade" class="nav__link">Comunidade</a></li>
+                    <li><a href="#contato" class="nav__link nav__link--cta">Contato</a></li>
+                </ul>
+                <button class="nav__toggle" id="navToggle" aria-label="Abrir menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero__overlay"></div>
+        <div class="container hero__content">
+            <div class="hero__badge">Saúde & Bem-estar</div>
+            <h1 class="hero__title">Clínica Eras</h1>
+            <p class="hero__subtitle">Estética & Saúde</p>
+            <p class="hero__text">Qualidade, conforto e segurança com valor acessível para a população de Alagoinhas e região.</p>
+            <div class="hero__buttons">
+                <a href="#servicos" class="btn btn--primary">Nossos Serviços</a>
+                <a href="#contato" class="btn btn--outline">Agende sua Consulta</a>
+            </div>
+        </div>
+        <div class="hero__scroll">
+            <a href="#sobre"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- Sobre / História -->
+    <section class="section sobre" id="sobre">
+        <div class="container">
+            <div class="sobre__grid">
+                <div class="sobre__image" data-aos="fade-right">
+                    <img src="imagens/logotipo massoterapia clínica moderno delicado profissional bege verde e branco.jpg" alt="Clínica Eras - Logo">
+                    <div class="sobre__image-accent"></div>
+                </div>
+                <div class="sobre__content" data-aos="fade-left">
+                    <span class="section__label">Nossa História</span>
+                    <h2 class="section__title">Cuidando de você com <span class="text-accent">dedicação</span></h2>
+                    <p class="sobre__text">
+                        A Clínica Eras surgiu de um sonho antigo da proprietária, de oferecer à população menos assistida 
+                        serviços de saúde com qualidade, conforto, segurança e valor acessível.
+                    </p>
+                    <p class="sobre__text">
+                        Localizada no coração de Alagoinhas-BA, nossa clínica conta com profissionais qualificados 
+                        e vasta experiência em diversas áreas da saúde, proporcionando um atendimento humanizado 
+                        e de excelência para toda a comunidade.
+                    </p>
+                    <div class="sobre__stats">
+                        <div class="sobre__stat">
+                            <span class="sobre__stat-number">37+</span>
+                            <span class="sobre__stat-label">Anos de experiência</span>
+                        </div>
+                        <div class="sobre__stat">
+                            <span class="sobre__stat-number">10+</span>
+                            <span class="sobre__stat-label">Especialidades</span>
+                        </div>
+                        <div class="sobre__stat">
+                            <span class="sobre__stat-number">100%</span>
+                            <span class="sobre__stat-label">Comprometimento</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section class="section servicos" id="servicos">
+        <div class="container">
+            <div class="section__header" data-aos="fade-up">
+                <span class="section__label section__label--center">O que oferecemos</span>
+                <h2 class="section__title section__title--center">Nossos <span class="text-accent">Serviços</span></h2>
+                <p class="section__description">Cuidamos da sua saúde de forma integral com profissionais qualificados e equipamentos de primeira linha.</p>
+            </div>
+            <div class="servicos__grid">
+                <div class="servico-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="servico-card__icon">
+                        <i class="fas fa-person-walking"></i>
+                    </div>
+                    <h3 class="servico-card__title">Pilates</h3>
+                    <p class="servico-card__text">Sala com 11m de comprimento e todos os equipamentos necessários. Profissionais com formação em Fisioterapia e especialização em Pilates.</p>
+                </div>
+                <div class="servico-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="servico-card__icon">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <h3 class="servico-card__title">Hidroginástica</h3>
+                    <p class="servico-card__text">Piscina aquecida com 6m de comprimento. Aulas com Educador Físico qualificado para melhorar seu condicionamento e qualidade de vida.</p>
+                </div>
+                <div class="servico-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="servico-card__icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3 class="servico-card__title">Hidroterapia</h3>
+                    <p class="servico-card__text">Hidroterapia aquecida com aquecimento solar e elétrico. Realizada por Fisioterapeutas experientes para reabilitação e bem-estar.</p>
+                </div>
+                <div class="servico-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="servico-card__icon">
+                        <i class="fas fa-hand-holding-medical"></i>
+                    </div>
+                    <h3 class="servico-card__title">Fisioterapia</h3>
+                    <p class="servico-card__text">Tratamentos fisioterapêuticos completos com equipamentos de primeira linha e profissionais com vasta experiência na área.</p>
+                </div>
+                <div class="servico-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="servico-card__icon">
+                        <i class="fas fa-shield-heart"></i>
+                    </div>
+                    <h3 class="servico-card__title">Preventivo</h3>
+                    <p class="servico-card__text">Exame citopatológico do colo de útero e outros exames preventivos para cuidar da sua saúde com antecedência e segurança.</p>
+                </div>
+                <div class="servico-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="servico-card__icon">
+                        <i class="fas fa-child-reaching"></i>
+                    </div>
+                    <h3 class="servico-card__title">RPG</h3>
+                    <p class="servico-card__text">Reeducação Postural Global com equipamentos de primeira linha e todos os acessórios para tratamento eficaz e qualidade de vida.</p>
+                </div>
+                <div class="servico-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="servico-card__icon">
+                        <i class="fas fa-clipboard-check"></i>
+                    </div>
+                    <h3 class="servico-card__title">Consultoria de Saúde</h3>
+                    <p class="servico-card__text">Orientação e planejamento personalizado para sua saúde, com profissionais multidisciplinares e abordagem integral.</p>
+                </div>
+                <div class="servico-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="servico-card__icon">
+                        <i class="fas fa-hands"></i>
+                    </div>
+                    <h3 class="servico-card__title">Massoterapia</h3>
+                    <p class="servico-card__text">Relaxante, modeladora, lipo manual, drenagem linfática, massagem facial, cromoterapia, aromaterapia e musicoterapia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Consultas -->
+    <section class="section consultas" id="consultas">
+        <div class="container">
+            <div class="section__header" data-aos="fade-up">
+                <span class="section__label section__label--center">Equipe Multidisciplinar</span>
+                <h2 class="section__title section__title--center">Nossas <span class="text-accent">Consultas</span></h2>
+                <p class="section__description">Profissionais altamente qualificados e com ampla experiência para cuidar da sua saúde.</p>
+            </div>
+            <div class="consultas__grid">
+                <div class="consulta-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="consulta-card__icon-wrap">
+                        <i class="fas fa-stethoscope"></i>
+                    </div>
+                    <div class="consulta-card__content">
+                        <h3 class="consulta-card__title">Consulta Médica</h3>
+                        <p class="consulta-card__text">Médica da Família e Comunidade, formada pela Universidade Baiana de Medicina, com experiência em Saúde da Família e Saúde Mental.</p>
+                    </div>
+                </div>
+                <div class="consulta-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="consulta-card__icon-wrap">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="consulta-card__content">
+                        <h3 class="consulta-card__title">Psicologia</h3>
+                        <p class="consulta-card__text">Acompanhamento psicológico com profissional qualificado para promover saúde mental e bem-estar emocional.</p>
+                    </div>
+                </div>
+                <div class="consulta-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="consulta-card__icon-wrap">
+                        <i class="fas fa-apple-whole"></i>
+                    </div>
+                    <div class="consulta-card__content">
+                        <h3 class="consulta-card__title">Nutrição</h3>
+                        <p class="consulta-card__text">Orientação nutricional personalizada para uma alimentação equilibrada e qualidade de vida.</p>
+                    </div>
+                </div>
+                <div class="consulta-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="consulta-card__icon-wrap">
+                        <i class="fas fa-heart-pulse"></i>
+                    </div>
+                    <div class="consulta-card__content">
+                        <h3 class="consulta-card__title">Enfermagem</h3>
+                        <p class="consulta-card__text">Enfermeira com 37 anos de experiência, especialista em Saúde da Mulher, Obstetrícia, Oncologia, Gerontologia e Saúde Pública.</p>
+                    </div>
+                </div>
+                <div class="consulta-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="consulta-card__icon-wrap">
+                        <i class="fas fa-person-running"></i>
+                    </div>
+                    <div class="consulta-card__content">
+                        <h3 class="consulta-card__title">Fisioterapeuta</h3>
+                        <p class="consulta-card__text">Fisioterapeutas com formação acadêmica e especialização em Pilates, RPG e diversas áreas de reabilitação.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Estrutura / Galeria -->
+    <section class="section estrutura" id="estrutura">
+        <div class="container">
+            <div class="section__header" data-aos="fade-up">
+                <span class="section__label section__label--center">Conheça nosso espaço</span>
+                <h2 class="section__title section__title--center">Nossa <span class="text-accent">Estrutura</span></h2>
+                <p class="section__description">Ambiente acolhedor com acessibilidade, segurança e conforto para todos os pacientes.</p>
+            </div>
+            <div class="estrutura__gallery">
+                <div class="estrutura__item estrutura__item--large" data-aos="fade-up">
+                    <img src="imagens/IMG-20191022-WA0017.jpg" alt="Piscina aquecida - Hidroginástica e Hidroterapia" loading="lazy">
+                    <div class="estrutura__item-overlay">
+                        <h3>Piscina Aquecida</h3>
+                        <p>6m x 3m x 1,40m com aquecimento solar e elétrico</p>
+                    </div>
+                </div>
+                <div class="estrutura__item" data-aos="fade-up" data-aos-delay="100">
+                    <img src="imagens/IMG-20191022-WA0018.jpg" alt="Hidroginástica na Clínica Eras" loading="lazy">
+                    <div class="estrutura__item-overlay">
+                        <h3>Hidroginástica</h3>
+                        <p>Aulas com profissionais qualificados</p>
+                    </div>
+                </div>
+                <div class="estrutura__item" data-aos="fade-up" data-aos-delay="200">
+                    <img src="imagens/IMG-20191022-WA0019.jpg" alt="Atividades aquáticas" loading="lazy">
+                    <div class="estrutura__item-overlay">
+                        <h3>Atividades Aquáticas</h3>
+                        <p>Equipamentos e materiais completos</p>
+                    </div>
+                </div>
+                <div class="estrutura__item" data-aos="fade-up" data-aos-delay="0">
+                    <img src="imagens/IMG_20201030_082321.jpg" alt="Espaço da clínica" loading="lazy">
+                    <div class="estrutura__item-overlay">
+                        <h3>Espaço Clínico</h3>
+                        <p>Ambiente confortável e seguro</p>
+                    </div>
+                </div>
+                <div class="estrutura__item" data-aos="fade-up" data-aos-delay="100">
+                    <img src="imagens/IMG_20201030_082339.jpg" alt="Instalações da clínica" loading="lazy">
+                    <div class="estrutura__item-overlay">
+                        <h3>Instalações</h3>
+                        <p>Rampa de acesso e acessibilidade</p>
+                    </div>
+                </div>
+                <div class="estrutura__item" data-aos="fade-up" data-aos-delay="200">
+                    <img src="imagens/IMG_20201110_062423.jpg" alt="Área externa da clínica" loading="lazy">
+                    <div class="estrutura__item-overlay">
+                        <h3>Área Externa</h3>
+                        <p>Segurança e conforto</p>
+                    </div>
+                </div>
+            </div>
+            <div class="estrutura__features" data-aos="fade-up">
+                <div class="estrutura__feature">
+                    <i class="fas fa-wheelchair"></i>
+                    <span>4 Sanitários com Acessibilidade</span>
+                </div>
+                <div class="estrutura__feature">
+                    <i class="fas fa-road"></i>
+                    <span>Rampa de Acesso</span>
+                </div>
+                <div class="estrutura__feature">
+                    <i class="fas fa-shield-halved"></i>
+                    <span>Segurança</span>
+                </div>
+                <div class="estrutura__feature">
+                    <i class="fas fa-couch"></i>
+                    <span>Conforto</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos Comunidade -->
+    <section class="section comunidade" id="comunidade">
+        <div class="container">
+            <div class="section__header" data-aos="fade-up">
+                <span class="section__label section__label--center">Responsabilidade Social</span>
+                <h2 class="section__title section__title--center">Projetos para a <span class="text-accent">Comunidade</span></h2>
+                <p class="section__description">A Clínica Eras acredita que saúde é um direito de todos. Por isso, desenvolvemos projetos que informam, fortalecem e transformam a comunidade local.</p>
+            </div>
+            <div class="comunidade__grid">
+                <div class="comunidade__card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="comunidade__card-icon">
+                        <i class="fas fa-chalkboard-user"></i>
+                    </div>
+                    <h3 class="comunidade__card-title">Palestras Educativas</h3>
+                    <p class="comunidade__card-text">Realizamos palestras gratuitas sobre temas essenciais de saúde como prevenção de doenças, alimentação saudável, saúde mental e cuidados com o corpo. Nosso objetivo é levar informação de qualidade para quem mais precisa.</p>
+                </div>
+                <div class="comunidade__card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="comunidade__card-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="comunidade__card-title">Treinamentos Gratuitos</h3>
+                    <p class="comunidade__card-text">Oferecemos treinamentos e oficinas gratuitas para a população, capacitando moradores em primeiros socorros, cuidados básicos de saúde e práticas de bem-estar que podem ser aplicadas no dia a dia.</p>
+                </div>
+                <div class="comunidade__card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="comunidade__card-icon">
+                        <i class="fas fa-hand-holding-heart"></i>
+                    </div>
+                    <h3 class="comunidade__card-title">Ações Solidárias</h3>
+                    <p class="comunidade__card-text">Promovemos ações de saúde comunitária com atendimentos acessíveis, mutirões e campanhas de conscientização, fortalecendo o vínculo entre a clínica e a comunidade de Alagoinhas.</p>
+                </div>
+                <div class="comunidade__card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="comunidade__card-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3 class="comunidade__card-title">Promoção de Saúde</h3>
+                    <p class="comunidade__card-text">Desenvolvemos programas contínuos de promoção à saúde voltados para grupos vulneráveis, como idosos, gestantes e crianças, visando a prevenção e a melhoria da qualidade de vida na região.</p>
+                </div>
+            </div>
+            <div class="comunidade__cta" data-aos="fade-up">
+                <p>Quer participar dos nossos projetos ou trazer uma palestra para sua comunidade?</p>
+                <a href="#contato" class="btn btn--primary">Entre em Contato</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="section contato" id="contato">
+        <div class="container">
+            <div class="contato__grid">
+                <div class="contato__info" data-aos="fade-right">
+                    <span class="section__label">Fale Conosco</span>
+                    <h2 class="section__title">Agende sua <span class="text-accent">Consulta</span></h2>
+                    <p class="contato__text">Entre em contato conosco e agende seu atendimento. Estamos prontos para cuidar da sua saúde com todo o carinho e profissionalismo.</p>
+                    <div class="contato__items">
+                        <div class="contato__item">
+                            <div class="contato__item-icon">
+                                <i class="fas fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <h4>Endereço</h4>
+                                <p>Urbis III, Rua Bélgica-P, Nº 08<br>CEP: 48.015-462 - Alagoinhas-BA</p>
+                            </div>
+                        </div>
+                        <div class="contato__item">
+                            <div class="contato__item-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div>
+                                <h4>Horário de Funcionamento</h4>
+                                <p>Segunda a Sexta: 7h às 18h<br>Sábado: 7h às 12h</p>
+                            </div>
+                        </div>
+                        <div class="contato__item">
+                            <div class="contato__item-icon">
+                                <i class="fas fa-file-medical"></i>
+                            </div>
+                            <div>
+                                <h4>Registros</h4>
+                                <p>CNPJ: 39.363.315/0001-39<br>CNES: 0405086</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contato__form-wrap" data-aos="fade-left">
+                    <form class="contato__form" id="contatoForm">
+                        <h3 class="contato__form-title">Envie sua mensagem</h3>
+                        <div class="form__group">
+                            <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+                        </div>
+                        <div class="form__group">
+                            <input type="tel" id="telefone" name="telefone" placeholder="Seu telefone / WhatsApp" required>
+                        </div>
+                        <div class="form__group">
+                            <select id="servico" name="servico" required>
+                                <option value="" disabled selected>Selecione o serviço</option>
+                                <optgroup label="Serviços">
+                                    <option value="pilates">Pilates</option>
+                                    <option value="hidroginastica">Hidroginástica</option>
+                                    <option value="hidroterapia">Hidroterapia</option>
+                                    <option value="fisioterapia">Fisioterapia</option>
+                                    <option value="preventivo">Preventivo</option>
+                                    <option value="rpg">RPG</option>
+                                    <option value="massoterapia">Massoterapia</option>
+                                    <option value="consultoria">Consultoria de Saúde</option>
+                                </optgroup>
+                                <optgroup label="Consultas">
+                                    <option value="medica">Consulta Médica</option>
+                                    <option value="psicologia">Psicologia</option>
+                                    <option value="nutricao">Nutrição</option>
+                                    <option value="enfermagem">Enfermagem</option>
+                                    <option value="fisioterapeuta">Fisioterapeuta</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                        <div class="form__group">
+                            <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem (opcional)" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full">
+                            <i class="fas fa-paper-plane"></i> Enviar Mensagem
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <img src="imagens/logotipo massoterapia clínica moderno delicado profissional bege verde e branco.jpg" alt="Clínica Eras" class="footer__logo">
+                    <p class="footer__tagline">Cuidando de você com dedicação, qualidade e carinho desde o primeiro atendimento.</p>
+                    <div class="footer__social">
+                        <a href="https://www.instagram.com/clinicaeras?igsh=bmMwZWRkMjlrM3Nn" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://wa.me/5575998811966" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer__links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#consultas">Consultas</a></li>
+                        <li><a href="#estrutura">Estrutura</a></li>
+                        <li><a href="#comunidade">Comunidade</a></li>
+                    </ul>
+                </div>
+                <div class="footer__links">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="#servicos">Pilates</a></li>
+                        <li><a href="#servicos">Hidroginástica</a></li>
+                        <li><a href="#servicos">Hidroterapia</a></li>
+                        <li><a href="#servicos">Fisioterapia</a></li>
+                        <li><a href="#servicos">RPG</a></li>
+                    </ul>
+                </div>
+                <div class="footer__contact">
+                    <h4>Contato</h4>
+                    <p><i class="fas fa-location-dot"></i> Urbis III, Rua Bélgica-P, Nº 08</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Alagoinhas-BA | CEP: 48.015-462</p>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2026 Clínica Eras - Estética & Saúde. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/5575998811966" class="whatsapp-float" aria-label="Fale conosco pelo WhatsApp" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>

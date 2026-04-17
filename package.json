@@ -1,0 +1,15 @@
+{
+  "name": "projeto-mainha",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "pptx-parser": "^1.1.7-beta.9"
+  }
+}
